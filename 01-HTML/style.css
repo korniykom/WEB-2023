@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Old English" ;
+    src: url(fonts/OldEnglishFive.ttf);
+}
+.header {
+    font-family: "Old English";
+    display: block;
+    text-align: center;
+    background-color: aquamarine;
+}
+.header-title {
+    background: whitesmoke;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+}
+.plain-text {
+    background-color: lightslategray;
+    font-family: "Old English";
+    
+}
+a {
+    font-size: 22px;
+    text-decoration: none;
+    background: whitesmoke;
+    color: black;
+    border: 2px solid pink;
+    
+    
+}
+.topic {
+    font-size:large;
+}
+body {
+    background-color: rgb(41, 209, 41);
+    margin: 0 64px 0 64px;
+}
+#bio-section{
+    background-color: purple;
+    font-family: "Old English";
+    font-size: 12px;
+    text-align: center;
+    font-size: medium;
+}
