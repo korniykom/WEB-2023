@@ -2,6 +2,16 @@
     font-family: "Old English" ;
     src: url(fonts/OldEnglishFive.ttf);
 }
+img {
+    height: 250px;
+    width: auto;
+    
+}
+.images {
+    display: flex;
+    justify-content: space-between;
+    
+}
 .header {
     font-family: "Old English";
     display: block;
@@ -29,14 +39,14 @@ a {
     
     
 }
-.topic {
-    font-size:large;
+.taged {
+    background-color: yellow;
 }
 body {
     background-color: rgb(41, 209, 41);
     margin: 0 64px 0 64px;
 }
-#bio-section{
+.topic {
     background-color: purple;
     font-family: "Old English";
     font-size: 12px;
