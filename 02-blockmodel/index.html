@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LAB2</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="Start">
+      <div>
+        <p>Лаболаторна робота №2</p>
+      </div>
+      <div>
+        <p>Виконавець: Корнійко Максим Васильович</p>
+      </div>
+      <div>
+        <p>ТР-23</p>
+      </div>
+    </header>
+    <div class="MainBlock">
+      <div class="GeneralInfo">
+        <img src="./img/sky-blue.png" alt="img1" class="img1" />
+        <img src="./img/litgh-blue.png" alt="img2" class="img2" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
+          perspiciatis porro illo excepturi inventore dolores, harum temporibus
+          fuga eaque corporis quibusdam placeat iure! Assumenda soluta, officia
+          ratione dicta earum ad, minus deleniti est repudiandae, vitae tempore!
+          Sapiente consequuntur amet officiis animi sequi, distinctio
+          reprehenderit, nesciunt laborum dolore sint nisi vero neque et
+          expedita est beatae repellat tenetur. In aliquam dolore nemo
+          asperiores officia unde aperiam quidem, sed earum laboriosam
+          reprehenderit, odit recusandae porro veniam voluptates officiis
+          deserunt id fugit est! Tenetur iure deserunt suscipit beatae quibusdam
+          eveniet accusamus sit ipsa rem recusandae. Asperiores, quasi harum.
+          Architecto beatae tempora neque consequatur.
+        </p>
+        <img src="./img/purple.png" alt="img3" class="img3" />
+      </div>
+      <div class="ReapetedImg">
+        <img src="./img/orange.png" alt="repeated img1" class="RepeatedImg1" />
+        <img src="./img/yellow.png" alt="repeated img2" class="RepeatedImg2" />
+        <img
+          src="./img/yellowish-green.png"
+          alt="repeated img1"
+          class="RepeatedImg3"
+        />
+      </div>
+    </div>
+    <nav class="StickyNav">
+      <a href="#reg">Форма реєстрації</a>
+      <a href="#">Форма входу</a>
+      <a href="#">Форма зворотнього зв'язку</a>
+    </nav>
+    <h2>Форма реєстрації</h2>
+    <form id="reg" class="Registration">
+      <div class="reg-left-side">
+        <img src="./img/avatar.png" alt="avatar" class="Avatar" />
+        <label>Iм'я</label>
+        <input type="text" />
+        <label>Прізвище</label>
+        <input type="text" />
+        <label>Стать:</label>
+        <div class="choose-sex">
+          <div>
+            <label>Чоловіча</label>
+            <input type="radio" />
+          </div>
+          <div>
+            <label>Жіноча</label>
+            <input type="radio" />
+          </div>
+        </div>
+        <label> Вік:</label>
+        <input type="number" min="1" max="999" value="1" step="1" />
+        <label>Дата народження:</label>
+        <input type="date" />
+        <button class="reg-button">Зареєструватися</button>
+      </div>
+      <div class="reg-right-side">
+        <label>Країна проживання</label>
+        <select size="1">
+          <option>Україна</option>
+          <option>США</option>
+          <option>Великобританія</option>
+          <option>Франція</option>
+          <option>Італія</option>
+          <option>Німеччина</option>
+          <option>Польща</option>
+          <option>Чехословаччина</option>
+          <option>Молдова</option>
+          <option>Грузія</option>
+          <option>Вірменія</option>
+          <option>Азербайджан</option>
+          <option>Таджикістан</option>
+          <option>Казахстан</option>
+          <option>Південна Корея</option>
+          <option>Японія</option>
+        </select>
+        <label>Номер телефону</label>
+        <input type="number" placeholder="+380(XX)XXXXXXX" />
+        <label>Соціальна мережа</label>
+        <input />
+        <label>Електронна пошта</label>
+        <input />
+        <label>Пароль</label>
+        <input type="password" />
+        <div><input type="checkbox" /><label>Умови?</label></div>
+        <button class="back-button">Назад</button>
+      </div>
+    </form>
+    <h2>Форма входу</h2>
+    <form id="login" class="login-form">
+      <label>Електронна пошта:</label>
+      <input />
+      <label>Пароль:</label>
+      <input type="password" />
+      <button type="submit">Вхід</button>
+    </form>
+    <h2>Форма зворотного зв'язку</h2>
+    <form class="feedback">
+      <div class="input">
+        <input placeholder="Ім'я" />
+        <input placeholder="Електронна пошта" />
+        <input placeholder="Тема повідомлення" />
+      </div>
+      <div class="message">
+        <textarea rows="7" placeholder="Повідомлення"></textarea>
+      </div>
+    </form>
+    <footer>
+      <div class="social-buttons">
+        <a href="#" class="github-button">GitHub</a>
+        <a href="#" class="telegram-button">Telegram</a>
+      </div>
+    </footer>
+    <a href="#Start">
+      <div class="start-button">
+        <img src="./img/up.png" alt="Перейти у початок" />
+      </div>
+    </a>
+  </body>
+</html>

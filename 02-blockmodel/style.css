@@ -1,0 +1,153 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: lightseagreen;
+  margin: 10px;
+  color: greenyellow;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: lightcyan;
+}
+a {
+  text-decoration: none;
+  color: darkviolet;
+}
+.MainBlock {
+  display: flex;
+}
+.GeneralInfo {
+  width: 66%;
+}
+.ReapetedImg {
+  width: 34%;
+}
+p {
+  color: #154c79;
+}
+img {
+  margin: 10px;
+  border-radius: 20%;
+  height: 100px;
+  width: 100px;
+}
+.GeneralInfo .img1 {
+  float: left;
+}
+.GeneralInfo .img2 {
+  float: right;
+}
+.GeneralInfo .img3 {
+  float: left;
+}
+.ReapetedImg {
+  position: relative;
+}
+.ReapetedImg .RepeatedImg1 {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.ReapetedImg .RepeatedImg2 {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+}
+.ReapetedImg .RepeatedImg3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.StickyNav {
+  background-color: greenyellow;
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 10px;
+  z-index: 20;
+}
+.Registration {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+}
+.reg-left-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reg-button {
+  align-self: flex-end;
+  margin: 10px;
+}
+.choose-sex {
+  display: flex;
+}
+.reg-right-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.back-button {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.Avatar {
+  border-radius: 50%;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+}
+.feedback {
+  display: flex;
+}
+.start-button {
+  width: 30px;
+  height: 40px;
+  bottom: 90px;
+  right: 100px;
+  position: fixed;
+  z-index: 10;
+}
+.login-form {
+  background-color: aquamarine;
+  margin: auto;
+}
+.feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+}
+.input input {
+  margin: 10px;
+}
+.github-button,
+.telegram-button {
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.github-button {
+  background-color: #24292e;
+}
+
+.telegram-button {
+  background-color: #0088cc;
+}
