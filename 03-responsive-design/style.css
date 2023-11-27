@@ -1,5 +1,38 @@
+*{
+    /* background-color: #1d1d1d; */
+}
 header {
     background-color: #1d1d1d;
+    max-width: 100%;
+}
+.banner {
+    position: relative;
+    max-width: 100%;
+}
+.banner .background-img{
+    width: 100%;
+}
+.about-company {
+    margin: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+}
+.company-img {
+    margin: 24px;
+}
+.company-description {
+    max-width: 50%;
+    margin: 64px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+.description {
+    color: #727272;
 }
 @media (min-width: 1280px ) {
 
@@ -49,8 +82,19 @@ header {
         flex-direction: row;
         justify-content: space-around;
         background-color: #ef5050;
+    }
+    .centered-img{
+
+        position: absolute;
+        top: 30%;
+        left: 20%;
         
-       
+    }
+    .banner-btn {
+        position: absolute;
+        top: 70%;
+        left: 40%;
+
     }
 }
 @media (min-width: 480px ) {
