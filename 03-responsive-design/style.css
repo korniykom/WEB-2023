@@ -1,105 +1,140 @@
-*{
-    /* background-color: #1d1d1d; */
+* {
+  /* background-color: #1d1d1d; */
 }
-header {
+
+.description {
+  color: #727272;
+}
+@media (min-width: 1280px) {
+  .upper-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .header-label {
+    color: whitesmoke;
+  }
+  .header-description {
+    color: #727272;
+  }
+  .open-hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .telephone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .telephone .telephone-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .icons {
+    align-self: center;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ef5050;
+  }
+  .centered-img {
+    position: absolute;
+    top: 40%;
+    left: 37%;
+  }
+  .banner-btn {
+    position: absolute;
+    top: 70%;
+    left: 47%;
+  }
+  header {
     background-color: #1d1d1d;
     max-width: 100%;
-}
-.banner {
+  }
+  .banner {
     position: relative;
     max-width: 100%;
-}
-.banner .background-img{
+  }
+  .banner .background-img {
     width: 100%;
-}
-.about-company {
+  }
+  .about-company {
     margin: 48px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     max-width: 100%;
-}
-.company-img {
+  }
+  .company-img {
     margin: 24px;
-}
-.company-description {
+  }
+  .company-description {
     max-width: 50%;
     margin: 64px;
-}
-.grid {
+  }
+  .grid {
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 20px;
-}
-.description {
+  }
+  .our-service {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-service .description {
     color: #727272;
+    max-width: 50%;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    margin: 28px;
+  }
+  .flex-container img {
+    margin: 10px;
+  }
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+    background-color: #616161;
+    height: 800px;
+    width: 100%;
+  }
+  .gallery .heading {
+    margin-top: 128px;
+  }
+  .gallery .description {
+    margin-top: 24px;
+  }
+  .gallery .slider {
+    margin: 32px;
+  }
+  .testimonicals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
-@media (min-width: 1280px ) {
-
+@media (min-width: 1024px) {
 }
-@media (min-width: 1024px ) {
-   
+@media (min-width: 768px) {
 }
-@media (min-width: 768px ) {
-    .upper-header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .header-label {
-        color: whitesmoke
-    }
-    .header-description {
-        color: #727272;
-    }
-    .open-hours {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .email {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .telephone {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    .telephone .telephone-text {
-        display: flex;
-        flex-direction: column;
-    }
-    .icons {
-        align-self: center;
-    }
-    nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        background-color: #ef5050;
-    }
-    .centered-img{
-
-        position: absolute;
-        top: 30%;
-        left: 20%;
-        
-    }
-    .banner-btn {
-        position: absolute;
-        top: 70%;
-        left: 40%;
-
-    }
+@media (min-width: 480px) {
 }
-@media (min-width: 480px ) {
-    
-}
-@media (min-width: 320px ) {
-    
+@media (min-width: 320px) {
 }
