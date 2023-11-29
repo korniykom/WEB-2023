@@ -1,11 +1,272 @@
 * {
   /* background-color: #1d1d1d; */
 }
+.upper-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.header-label {
+  color: whitesmoke;
+}
+.header-description {
+  color: #727272;
+}
+.open-hours {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.telephone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.telephone .telephone-text {
+  display: flex;
+  flex-direction: column;
+}
+.icons {
+  align-self: center;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ef5050;
+}
+nav .img1 {
+  max-width: 70%;
+}
+nav .img2 {
+  max-width: 30%;
+}
 
+header {
+  background-color: #1d1d1d;
+  max-width: 100%;
+}
+.banner {
+  background-image: url(./img/banner/background-img.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  max-width: 100%;
+}
+
+.about-company {
+  margin: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+.company-img {
+  margin: 24px;
+}
+.company-description {
+  max-width: 50%;
+  margin: 64px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+.our-service {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our-service .description {
+  color: #727272;
+  max-width: 50%;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin: 28px;
+}
+.flex-container img {
+  margin: 10px;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+  background-color: #616161;
+  height: 800px;
+  width: 100%;
+}
+.gallery .heading {
+  margin-top: 128px;
+}
+.gallery .description {
+  margin-top: 24px;
+}
+.gallery .slider {
+  margin: 32px;
+}
+.testimonicals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonicals .img1 {
+  margin: 54px;
+}
+.testimonicals .img2 {
+  margin-bottom: 24px;
+}
+.testimonicals .img3 {
+  margin-bottom: 36px;
+}
+.testimonicals .img4 {
+  margin-bottom: 24px;
+}
+.testimonicals .img5 {
+  margin-bottom: 128px;
+}
+.our-team {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our-team-flex {
+  display: flex;
+  flex-direction: row;
+  margin: 24px;
+}
+.our-team-flex img {
+  margin: 20px;
+}
+.our-team .header {
+  margin: 48px;
+}
+.our-team .sub-header {
+  margin-bottom: 32px;
+}
+.promo-banner {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 200px;
+  background-image: url(./img/promo-banner/background-img.png);
+  align-items: center;
+}
+.promo-banner .header {
+  margin: 24px;
+}
+.promo-banner .text {
+  margin-left: 24px;
+}
+.promo-banner .button {
+  margin-right: 24px;
+}
+
+.faq {
+  margin-top: 12px;
+  margin-bottom: 36px;
+}
+.faq .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.faq .header .img1 {
+  margin-bottom: 12px;
+}
+.faq .header .img2 {
+  margin-bottom: 24px;
+}
+.faq .bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.faq .bottom .news {
+  display: flex;
+  flex-direction: row;
+}
+.faq .bottom .news img {
+  margin: 12px;
+}
+.faq .bottom .faq-section {
+  display: flex;
+  flex-direction: column;
+}
+.appointement {
+  background-image: url(./img/appointment/background.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.appointement .icon {
+  margin: 24px;
+}
+.appointement .heading {
+  margin-bottom: 24px;
+}
+.appointement .sub-heading {
+  margin-bottom: 34px;
+}
+.appointement .form {
+  margin-bottom: 52px;
+}
+.clients {
+  background-image: url(./img/clients/background.png);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+footer {
+  background-image: url(./img/footer/background.png);
+  height: 520px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+.footer .about {
+  margin: 100px;
+}
+.footer .latest-news {
+  margin: 100px;
+}
+.footer .gallery-subscribe {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+}
+.footer .gallery-subscribe .subscribe {
+  margin-top: 24px;
+}
+footer .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
 .description {
   color: #727272;
 }
-@media (min-width: 1280px) {
+@media (max-width: 1280px) {
   .upper-header {
     display: flex;
     flex-direction: row;
@@ -48,27 +309,28 @@
     justify-content: space-around;
     background-color: #ef5050;
   }
-  .centered-img {
-    position: absolute;
-    top: 40%;
-    left: 37%;
+  nav .img1 {
+    max-width: 70%;
   }
-  .banner-btn {
-    position: absolute;
-    top: 70%;
-    left: 47%;
+  nav .img2 {
+    max-width: 30%;
   }
+
   header {
     background-color: #1d1d1d;
     max-width: 100%;
   }
   .banner {
-    position: relative;
+    background-image: url(./img/banner/background-img.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
     max-width: 100%;
   }
-  .banner .background-img {
-    width: 100%;
-  }
+
   .about-company {
     margin: 48px;
     display: flex;
@@ -129,12 +391,193 @@
     flex-direction: column;
     align-items: center;
   }
+  .testimonicals .img1 {
+    margin: 54px;
+  }
+  .testimonicals .img2 {
+    margin-bottom: 24px;
+  }
+  .testimonicals .img3 {
+    margin-bottom: 36px;
+  }
+  .testimonicals .img4 {
+    margin-bottom: 24px;
+  }
+  .testimonicals .img5 {
+    margin-bottom: 128px;
+  }
+  .our-team {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-team-flex {
+    display: flex;
+    flex-direction: row;
+    margin: 24px;
+  }
+  .our-team-flex img {
+    margin: 20px;
+  }
+  .our-team .header {
+    margin: 48px;
+  }
+  .our-team .sub-header {
+    margin-bottom: 32px;
+  }
+  .promo-banner {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    background-image: url(./img/promo-banner/background-img.png);
+    align-items: center;
+  }
+  .promo-banner .header {
+    margin: 24px;
+  }
+  .promo-banner .text {
+    margin-left: 24px;
+  }
+  .promo-banner .button {
+    margin-right: 24px;
+  }
+
+  .faq {
+    margin-top: 12px;
+    margin-bottom: 36px;
+  }
+  .faq .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .faq .header .img1 {
+    margin-bottom: 12px;
+  }
+  .faq .header .img2 {
+    margin-bottom: 24px;
+  }
+  .faq .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .faq .bottom .news {
+    display: flex;
+    flex-direction: row;
+  }
+  .faq .bottom .news img {
+    margin: 12px;
+  }
+  .faq .bottom .faq-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .appointement {
+    background-image: url(./img/appointment/background.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .appointement .icon {
+    margin: 24px;
+  }
+  .appointement .heading {
+    margin-bottom: 24px;
+  }
+  .appointement .sub-heading {
+    margin-bottom: 34px;
+  }
+  .appointement .form {
+    margin-bottom: 52px;
+  }
+  .clients {
+    background-image: url(./img/clients/background.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  footer {
+    background-image: url(./img/footer/background.png);
+    height: 520px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer .about {
+    margin: 100px;
+  }
+  .footer .latest-news {
+    margin: 100px;
+  }
+  .footer .gallery-subscribe {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+  }
+  .footer .gallery-subscribe .subscribe {
+    margin-top: 24px;
+  }
+  footer .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .description {
+    color: #727272;
+  }
 }
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 }
-@media (min-width: 480px) {
+@media (max-width: 480px) {
 }
-@media (min-width: 320px) {
+@media (max-width: 320px) {
+  .upper-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .header-label {
+    color: whitesmoke;
+  }
+  .header-description {
+    color: #727272;
+  }
+  .open-hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .telephone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+  .telephone .telephone-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .icons {
+    align-self: center;
+  }
 }
