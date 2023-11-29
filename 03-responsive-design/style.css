@@ -170,8 +170,67 @@ header {
   color: #727272;
 }
 /************************** Testimonials **************************/
+/************************** Team **************************/
+.team {
+  text-align: center;
+}
+.team h2 {
+  font-size: 48px;
+}
+.team p {
+  margin-left: 24px;
+  margin-right: 24px;
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: #727272;
+}
+.team .box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.team .box img {
+  width: 260px;
+  margin: 18px;
+}
+/************************** Team **************************/
+/************************** Promo banner **************************/
+
+.promo-banner {
+  background-image: url(./img/promo-banner/background-img.png);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.promo-banner .left-side {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.promo-banner .right-side {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: center;
+}
+.promo-banner .left-side .text1 {
+  font-size: 32px;
+  color: white;
+}
+.promo-banner .left-side .text2 {
+  font-size: 18px;
+  color: white;
+}
+.promo-banner .right-side .img3 {
+  height: 60px;
+}
+/************************** Promo banner **************************/
 
 @media (max-width: 1280px) {
+  * {
+    max-width: 1280px;
+  }
   .upper-header {
     text-align: center;
     display: flex;
@@ -319,6 +378,153 @@ header {
   }
   .Testimonials p {
     color: #727272;
+  }
+  .team {
+    text-align: center;
+  }
+  .team h2 {
+    font-size: 48px;
+  }
+  .team p {
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: #727272;
+  }
+  .team .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .team .box img {
+    width: 260px;
+    margin: 18px;
+  }
+  .promo-banner {
+    background-image: url(./img/promo-banner/background-img.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .promo-banner .left-side {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .promo-banner .right-side {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+  }
+  .promo-banner .left-side .text1 {
+    font-size: 32px;
+    color: white;
+  }
+  .promo-banner .left-side .text2 {
+    font-size: 18px;
+    color: white;
+  }
+  .promo-banner .right-side .img3 {
+    height: 60px;
+  }
+  .faq-news {
+    text-align: center;
+  }
+  .faq-news h2 {
+    font-size: 36px;
+  }
+  .faq-news p {
+    color: #727272;
+    font-size: 18px;
+    margin: 20px;
+  }
+  .faq-news .box {
+    display: flex;
+    flex-direction: row;
+  }
+  .faq-news .right-side {
+    display: flex;
+    flex-direction: row;
+  }
+  .faq-news .box .right-side .img1 {
+    width: 300px;
+    margin: 10px;
+  }
+  .faq-news .box .left-side .img2 {
+    width: 600px;
+  }
+  .faq-news .box .left-side .img3 {
+    width: 600px;
+  }
+  .appointment {
+    padding: 10px;
+    text-align: center;
+    background-color: #cccccc;
+  }
+  .appointment .upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .appointment .upper input {
+    width: 200px;
+    margin: 10px;
+    background-color: #232425;
+  }
+  .appointment .lower input {
+    width: 670px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #232425;
+  }
+  .appointment form {
+    background-color: #232425;
+  }
+
+  .appointment input {
+    background-color: #232425;
+    font-size: 20px;
+  }
+  .appointment .icon {
+    width: 10%;
+  }
+  .appointment .button {
+    width: 15%;
+  }
+  .appointment h2 {
+    font-size: 36px;
+    color: #333333;
+  }
+  .appointment p {
+    font-size: 24px;
+    color: #333333;
+  }
+  footer {
+    background-color: #1d1d1d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  footer img {
+    width: 340px;
+  }
+  footer .third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .copyright {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1d1d1d;
   }
 }
 @media (max-width: 1024px) {
@@ -468,6 +674,153 @@ header {
   }
   .Testimonials p {
     color: #727272;
+  }
+  .team {
+    text-align: center;
+  }
+  .team h2 {
+    font-size: 48px;
+  }
+  .team p {
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: #727272;
+  }
+  .team .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .team .box img {
+    width: 220px;
+    margin: 18px;
+  }
+  .promo-banner {
+    background-image: url(./img/promo-banner/background-img.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .promo-banner .left-side {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .promo-banner .right-side {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+  }
+  .promo-banner .left-side .text1 {
+    font-size: 32px;
+    color: white;
+  }
+  .promo-banner .left-side .text2 {
+    font-size: 18px;
+    color: white;
+  }
+  .promo-banner .right-side .img3 {
+    height: 60px;
+  }
+  .faq-news {
+    text-align: center;
+  }
+  .faq-news h2 {
+    font-size: 36px;
+  }
+  .faq-news p {
+    color: #727272;
+    font-size: 18px;
+    margin: 20px;
+  }
+  .faq-news .box {
+    display: flex;
+    flex-direction: row;
+  }
+  .faq-news .right-side {
+    display: flex;
+    flex-direction: row;
+  }
+  .faq-news .box .right-side .img1 {
+    width: 200px;
+    margin: 10px;
+  }
+  .faq-news .box .left-side .img2 {
+    width: 550px;
+  }
+  .faq-news .box .left-side .img3 {
+    width: 550px;
+  }
+  .appointment {
+    padding: 10px;
+    text-align: center;
+    background-color: #cccccc;
+  }
+  .appointment .upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .appointment .upper input {
+    width: 200px;
+    margin: 10px;
+    background-color: #232425;
+  }
+  .appointment .lower input {
+    width: 670px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #232425;
+  }
+  .appointment form {
+    background-color: #232425;
+  }
+
+  .appointment input {
+    background-color: #232425;
+    font-size: 20px;
+  }
+  .appointment .icon {
+    width: 10%;
+  }
+  .appointment .button {
+    width: 15%;
+  }
+  .appointment h2 {
+    font-size: 36px;
+    color: #333333;
+  }
+  .appointment p {
+    font-size: 24px;
+    color: #333333;
+  }
+  footer {
+    background-color: #1d1d1d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  footer img {
+    width: 240px;
+  }
+  footer .third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .copyright {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1d1d1d;
   }
 }
 @media (max-width: 768px) {
@@ -644,6 +997,145 @@ header {
   .Testimonials p {
     color: #727272;
   }
+  .team {
+    text-align: center;
+  }
+  .team h2 {
+    font-size: 32px;
+  }
+  .team p {
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 18px;
+  }
+  .team .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team .box img {
+    width: 300px;
+    margin-bottom: 18px;
+  }
+  .promo-banner {
+    background-image: url(./img/promo-banner/background-img.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .promo-banner .left-side {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .promo-banner .right-side {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+  }
+  .promo-banner .left-side .text1 {
+    font-size: 24px;
+    color: white;
+  }
+  .promo-banner .left-side .text2 {
+    font-size: 14px;
+    color: white;
+  }
+  .promo-banner .right-side .img3 {
+    height: 40px;
+  }
+  .faq-news {
+    text-align: center;
+  }
+  .faq-news h2 {
+    font-size: 14px;
+  }
+  .faq-news p {
+    color: #727272;
+    font-size: 8px;
+    margin: 20px;
+  }
+  .faq-news .box {
+    display: flex;
+    flex-direction: row;
+  }
+  .faq-news .right-side {
+    display: flex;
+    flex-direction: row;
+  }
+  .faq-news .box .right-side .img1 {
+    width: 200px;
+    margin: 10px;
+  }
+  .faq-news .box .left-side .img2 {
+    width: 350px;
+  }
+  .faq-news .box .left-side .img3 {
+    width: 350px;
+  }
+  .appointment {
+    padding: 10px;
+    text-align: center;
+    background-color: #cccccc;
+  }
+  .appointment .upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .appointment .upper input {
+    width: 120px;
+    margin: 10px;
+    background-color: #232425;
+  }
+  .appointment .lower input {
+    width: 420px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #232425;
+  }
+  .appointment form {
+    background-color: #232425;
+  }
+
+  .appointment input {
+    background-color: #232425;
+    font-size: 14px;
+  }
+
+  .appointment h2 {
+    font-size: 28px;
+    color: #333333;
+  }
+  .appointment p {
+    font-size: 18px;
+    color: #333333;
+  }
+  footer {
+    background-color: #1d1d1d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  footer img {
+    width: 220px;
+  }
+  footer .third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .copyright {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1d1d1d;
+  }
 }
 @media (max-width: 480px) {
   .upper-header {
@@ -788,6 +1280,136 @@ header {
   .Testimonials p {
     color: #727272;
   }
+  .team {
+    text-align: center;
+  }
+  .team h2 {
+    font-size: 20px;
+  }
+  .team p {
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 12px;
+  }
+  .team .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team .box img {
+    width: 200px;
+    margin-bottom: 18px;
+  }
+  .promo-banner {
+    background-image: url(./img/promo-banner/background-img.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .promo-banner .left-side {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .promo-banner .right-side {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+  }
+  .promo-banner .left-side .text1 {
+    font-size: 18px;
+    color: white;
+  }
+  .promo-banner .left-side .text2 {
+    font-size: 8px;
+    color: white;
+  }
+  .promo-banner .right-side .img3 {
+    height: 20px;
+  }
+  .faq-news {
+    text-align: center;
+  }
+  .faq-news h2 {
+    font-size: 14px;
+  }
+  .faq-news p {
+    color: #727272;
+    font-size: 8px;
+    margin: 20px;
+  }
+  .faq-news .box {
+    display: flex;
+    flex-direction: column;
+  }
+  .faq-news .box .right-side .img1 {
+    width: 200px;
+    margin: 10px;
+  }
+  .faq-news .box .left-side .img2 {
+    width: 350px;
+  }
+  .faq-news .box .left-side .img3 {
+    width: 350px;
+  }
+  .appointment {
+    padding: 10px;
+    text-align: center;
+    background-color: #cccccc;
+  }
+  .appointment .upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .appointment .upper input {
+    width: 70px;
+    margin: 10px;
+    background-color: #232425;
+  }
+  .appointment .lower input {
+    width: 260px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #232425;
+  }
+  .appointment form {
+    background-color: #232425;
+  }
+
+  .appointment input {
+    background-color: #232425;
+    font-size: 8px;
+  }
+
+  .appointment h2 {
+    font-size: 18px;
+    color: #333333;
+  }
+  .appointment p {
+    font-size: 14px;
+    color: #333333;
+  }
+  footer {
+    background-color: #1d1d1d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  footer img {
+    width: 240px;
+  }
+  footer .third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .copyright {
+    padding: 20px;
+  }
 }
 @media (max-width: 320px) {
   .upper-header {
@@ -916,6 +1538,7 @@ header {
     width: 124px;
   }
   .Testimonials {
+    font-size: 12px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -929,5 +1552,134 @@ header {
   }
   .Testimonials p {
     color: #727272;
+  }
+  .team {
+    text-align: center;
+  }
+  .team h2 {
+    font-size: 20px;
+  }
+  .team p {
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 12px;
+  }
+  .team .box {
+    display: flex;
+    flex-direction: column;
+    align-items: c;
+  }
+  .team .box img {
+    width: 146px;
+  }
+  .promo-banner {
+    background-image: url(./img/promo-banner/background-img.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .promo-banner .left-side {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .promo-banner .right-side {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+  }
+  .promo-banner .left-side .text1 {
+    font-size: 12px;
+    color: white;
+  }
+  .promo-banner .left-side .text2 {
+    font-size: 6px;
+    color: white;
+  }
+  .promo-banner .right-side .img3 {
+    height: 20px;
+  }
+  .faq-news {
+    text-align: center;
+  }
+  .faq-news h2 {
+    font-size: 14px;
+  }
+  .faq-news p {
+    color: #727272;
+    font-size: 8px;
+    margin: 20px;
+  }
+  .faq-news .box {
+    display: flex;
+    flex-direction: column;
+  }
+  .faq-news .box .right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .faq-news .box .right-side .img1 {
+    width: 200px;
+  }
+  .faq-news .box .left-side .img2 {
+    width: 250px;
+  }
+  .faq-news .box .left-side .img3 {
+    width: 250px;
+  }
+  .appointment {
+    padding: 10px;
+    text-align: center;
+    background-color: #cccccc;
+  }
+  .appointment .upper {
+    display: flex;
+    flex-direction: row;
+  }
+  .appointment .upper input {
+    width: 70px;
+    margin: 10px;
+    background-color: #232425;
+  }
+  .appointment .lower input {
+    width: 260px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #232425;
+  }
+  .appointment form {
+    background-color: #232425;
+  }
+
+  .appointment input {
+    background-color: #232425;
+    font-size: 8px;
+  }
+
+  .appointment h2 {
+    font-size: 18px;
+    color: #333333;
+  }
+  .appointment p {
+    font-size: 12px;
+    color: #333333;
+  }
+  footer {
+    background-color: #1d1d1d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  footer img {
+    width: 170px;
+  }
+  footer .third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
