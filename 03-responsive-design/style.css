@@ -1,583 +1,933 @@
-* {
-  /* background-color: #1d1d1d; */
+header {
+  width: 100%;
+  background-color: #1d1d1d;
 }
-.upper-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+.upper-text {
+  color: #ffffff;
 }
-.header-label {
-  color: whitesmoke;
-}
-.header-description {
+.lower-text {
   color: #727272;
 }
-.open-hours {
+/************************** header **************************/
+.upper-header {
+  text-align: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-}
-.email {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .telephone {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
 }
-.telephone .telephone-text {
-  display: flex;
-  flex-direction: column;
-}
-.icons {
-  align-self: center;
-}
-nav {
+.lower-header {
+  background-color: #ef5050;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  background-color: #ef5050;
+  align-items: center;
+  justify-content: space-between;
 }
-nav .img1 {
-  max-width: 70%;
+.lower-header .menu {
+  max-width: 90%;
+  padding-left: 10px;
 }
-nav .img2 {
-  max-width: 30%;
+.lower-header .button {
+  max-width: 80%;
 }
+/************************** header **************************/
 
-header {
-  background-color: #1d1d1d;
-  max-width: 100%;
-}
+/************************** banner **************************/
 .banner {
   background-image: url(./img/banner/background-img.png);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 100%;
+  justify-content: center;
   height: 600px;
-  max-width: 100%;
 }
+.banner .img1 {
+  width: 550px;
+  height: auto;
+}
+.banner .img2 {
+  width: 270px;
+  height: auto;
+}
+/************************** banner **************************/
+/************************** about company **************************/
 
 .about-company {
-  margin: 48px;
+  font-size: 24px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  max-width: 100%;
+  margin: 16px;
+  justify-content: space-around;
+  color: #646464;
 }
-.company-img {
-  margin: 24px;
+.about-company .img1 {
+  width: 420px;
+  margin-right: 12px;
 }
-.company-description {
-  max-width: 50%;
-  margin: 64px;
+.about-company .img2 {
+  width: 300px;
+  margin-top: 12px;
+  margin-left: 24px;
 }
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  gap: 20px;
+.about-company .left-side {
+  align-self: center;
 }
+.red-text {
+  color: red;
+}
+.container h3 {
+  color: black;
+}
+.first-element {
+  display: flex;
+  flex-direction: row;
+}
+.first-element .left-side {
+  margin: 5px;
+}
+.first-element .right-side {
+  margin-left: 5px;
+}
+.first-element img {
+  width: 124px;
+}
+/************************** about company **************************/
+/************************** out service **************************/
+
 .our-service {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.our-service .description {
-  color: #727272;
-  max-width: 50%;
+.our-service .title {
+  font-size: 42px;
+  color: black;
 }
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  margin: 28px;
-}
-.flex-container img {
-  margin: 10px;
-}
-.gallery {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 24px;
-  background-color: #616161;
-  height: 800px;
-  width: 100%;
-}
-.gallery .heading {
-  margin-top: 128px;
-}
-.gallery .description {
-  margin-top: 24px;
-}
-.gallery .slider {
-  margin: 32px;
-}
-.testimonicals {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.testimonicals .img1 {
-  margin: 54px;
-}
-.testimonicals .img2 {
-  margin-bottom: 24px;
-}
-.testimonicals .img3 {
-  margin-bottom: 36px;
-}
-.testimonicals .img4 {
-  margin-bottom: 24px;
-}
-.testimonicals .img5 {
-  margin-bottom: 128px;
-}
-.our-team {
-  margin-top: 24px;
-  margin-bottom: 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.our-team-flex {
-  display: flex;
-  flex-direction: row;
-  margin: 24px;
-}
-.our-team-flex img {
-  margin: 20px;
-}
-.our-team .header {
-  margin: 48px;
-}
-.our-team .sub-header {
-  margin-bottom: 32px;
-}
-.promo-banner {
-  margin-top: 24px;
-  margin-bottom: 24px;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 200px;
-  background-image: url(./img/promo-banner/background-img.png);
-  align-items: center;
-}
-.promo-banner .header {
-  margin: 24px;
-}
-.promo-banner .text {
-  margin-left: 24px;
-}
-.promo-banner .button {
-  margin-right: 24px;
+.our-service p {
+  font-size: 28px;
+  color: #646464;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 1;
+  margin-bottom: 2;
 }
 
-.faq {
-  margin-top: 12px;
-  margin-bottom: 36px;
+.our-service img {
+  width: 320px;
+  margin: 8px;
 }
-.faq .header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.faq .header .img1 {
-  margin-bottom: 12px;
-}
-.faq .header .img2 {
-  margin-bottom: 24px;
-}
-.faq .bottom {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.faq .bottom .news {
+.our-service .photos {
   display: flex;
   flex-direction: row;
 }
-.faq .bottom .news img {
-  margin: 12px;
+/************************** out service **************************/
+/************************** Gallery **************************/
+.work-gallery {
+  font-size: 16px;
+  background-color: #616161;
+  text-align: center;
+  padding: 20px;
 }
-.faq .bottom .faq-section {
-  display: flex;
-  flex-direction: column;
+.work-gallery .title {
+  padding-top: 24px;
+  color: white;
 }
-.appointement {
-  background-image: url(./img/appointment/background.png);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.work-gallery .sub-title {
+  color: #b1b1b1;
 }
-.appointement .icon {
-  margin: 24px;
-}
-.appointement .heading {
-  margin-bottom: 24px;
-}
-.appointement .sub-heading {
-  margin-bottom: 34px;
-}
-.appointement .form {
-  margin-bottom: 52px;
-}
-.clients {
-  background-image: url(./img/clients/background.png);
+.work-gallery .gallery {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
-footer {
-  background-image: url(./img/footer/background.png);
-  height: 520px;
+.work-gallery .gallery img {
+  width: 300px;
+  padding-right: 40px;
+  padding-left: 20px;
 }
-.footer {
-  display: flex;
-  flex-direction: row;
-}
-.footer .about {
-  margin: 100px;
-}
-.footer .latest-news {
-  margin: 100px;
-}
-.footer .gallery-subscribe {
+/************************** Gallery **************************/
+/************************** Testimonials **************************/
+.Testimonials {
+  font-size: 24px;
+  text-align: center;
   display: flex;
   flex-direction: column;
-  margin: 100px;
 }
-.footer .gallery-subscribe .subscribe {
-  margin-top: 24px;
+.Testimonials .img1 {
+  width: 1000px;
 }
-footer .copyright {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+.Testimonials .img2 {
+  width: 240px;
+  padding-bottom: 140px;
 }
-.description {
+.Testimonials p {
   color: #727272;
 }
+/************************** Testimonials **************************/
+
 @media (max-width: 1280px) {
   .upper-header {
+    text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-  }
-  .header-label {
-    color: whitesmoke;
-  }
-  .header-description {
-    color: #727272;
-  }
-  .open-hours {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-  }
-  .email {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
   .telephone {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
   }
-  .telephone .telephone-text {
-    display: flex;
-    flex-direction: column;
-  }
-  .icons {
-    align-self: center;
-  }
-  nav {
+  .lower-header {
+    background-color: #ef5050;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    background-color: #ef5050;
+    align-items: center;
+    justify-content: space-between;
   }
-  nav .img1 {
-    max-width: 70%;
+  .lower-header .menu {
+    max-width: 90%;
+    padding-left: 10px;
   }
-  nav .img2 {
-    max-width: 30%;
-  }
-
-  header {
-    background-color: #1d1d1d;
-    max-width: 100%;
+  .lower-header .button {
+    max-width: 80%;
   }
   .banner {
     background-image: url(./img/banner/background-img.png);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 100%;
+    justify-content: center;
     height: 600px;
-    max-width: 100%;
   }
-
+  .banner .img1 {
+    width: 550px;
+    height: auto;
+  }
+  .banner .img2 {
+    width: 270px;
+    height: auto;
+  }
   .about-company {
-    margin: 48px;
+    font-size: 24px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    max-width: 100%;
+    margin: 16px;
+    justify-content: space-around;
+    color: #646464;
   }
-  .company-img {
-    margin: 24px;
+  .about-company .img1 {
+    width: 420px;
+    margin-right: 12px;
   }
-  .company-description {
-    max-width: 50%;
-    margin: 64px;
+  .about-company .img2 {
+    width: 300px;
+    margin-top: 12px;
+    margin-left: 24px;
   }
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 20px;
+  .about-company .left-side {
+    align-self: center;
+  }
+  .red-text {
+    color: red;
+  }
+  .container h3 {
+    color: black;
+  }
+  .first-element {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-element .left-side {
+    margin: 5px;
+  }
+  .first-element .right-side {
+    margin-left: 5px;
+  }
+  .first-element img {
+    width: 124px;
   }
   .our-service {
     text-align: center;
+
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .our-service .description {
-    color: #727272;
-    max-width: 50%;
+  .our-service .title {
+    font-size: 42px;
+    color: black;
   }
-  .flex-container {
-    display: flex;
-    flex-direction: row;
-    margin: 28px;
-  }
-  .flex-container img {
-    margin: 10px;
-  }
-  .gallery {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 24px;
-    background-color: #616161;
-    height: 800px;
-    width: 100%;
-  }
-  .gallery .heading {
-    margin-top: 128px;
-  }
-  .gallery .description {
-    margin-top: 24px;
-  }
-  .gallery .slider {
-    margin: 32px;
-  }
-  .testimonicals {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .testimonicals .img1 {
-    margin: 54px;
-  }
-  .testimonicals .img2 {
-    margin-bottom: 24px;
-  }
-  .testimonicals .img3 {
-    margin-bottom: 36px;
-  }
-  .testimonicals .img4 {
-    margin-bottom: 24px;
-  }
-  .testimonicals .img5 {
-    margin-bottom: 128px;
-  }
-  .our-team {
-    margin-top: 24px;
-    margin-bottom: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .our-team-flex {
-    display: flex;
-    flex-direction: row;
-    margin: 24px;
-  }
-  .our-team-flex img {
-    margin: 20px;
-  }
-  .our-team .header {
-    margin: 48px;
-  }
-  .our-team .sub-header {
-    margin-bottom: 32px;
-  }
-  .promo-banner {
-    margin-top: 24px;
-    margin-bottom: 24px;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 200px;
-    background-image: url(./img/promo-banner/background-img.png);
-    align-items: center;
-  }
-  .promo-banner .header {
-    margin: 24px;
-  }
-  .promo-banner .text {
-    margin-left: 24px;
-  }
-  .promo-banner .button {
-    margin-right: 24px;
+  .our-service p {
+    font-size: 28px;
+    color: #646464;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 1;
+    margin-bottom: 2;
   }
 
-  .faq {
-    margin-top: 12px;
-    margin-bottom: 36px;
+  .our-service img {
+    width: 240px;
+    margin: 8px;
   }
-  .faq .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .faq .header .img1 {
-    margin-bottom: 12px;
-  }
-  .faq .header .img2 {
-    margin-bottom: 24px;
-  }
-  .faq .bottom {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .faq .bottom .news {
+  .our-service .photos {
     display: flex;
     flex-direction: row;
   }
-  .faq .bottom .news img {
-    margin: 12px;
+  .work-gallery {
+    font-size: 16px;
+    background-color: #616161;
+    text-align: center;
+    padding: 20px;
   }
-  .faq .bottom .faq-section {
-    display: flex;
-    flex-direction: column;
+  .work-gallery .title {
+    padding-top: 24px;
+    color: white;
   }
-  .appointement {
-    background-image: url(./img/appointment/background.png);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .work-gallery .sub-title {
+    color: #b1b1b1;
   }
-  .appointement .icon {
-    margin: 24px;
-  }
-  .appointement .heading {
-    margin-bottom: 24px;
-  }
-  .appointement .sub-heading {
-    margin-bottom: 34px;
-  }
-  .appointement .form {
-    margin-bottom: 52px;
-  }
-  .clients {
-    background-image: url(./img/clients/background.png);
+  .work-gallery .gallery {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
-  footer {
-    background-image: url(./img/footer/background.png);
-    height: 520px;
+  .work-gallery .gallery img {
+    width: 200px;
+    padding-right: 40px;
+    padding-left: 20px;
   }
-  .footer {
-    display: flex;
-    flex-direction: row;
-  }
-  .footer .about {
-    margin: 100px;
-  }
-  .footer .latest-news {
-    margin: 100px;
-  }
-  .footer .gallery-subscribe {
+  .Testimonials {
+    font-size: 24px;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 100px;
   }
-  .footer .gallery-subscribe .subscribe {
-    margin-top: 24px;
+  .Testimonials .img1 {
+    width: 1000px;
   }
-  footer .copyright {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+  .Testimonials .img2 {
+    width: 240px;
+    padding-bottom: 140px;
   }
-  .description {
+  .Testimonials p {
     color: #727272;
   }
 }
 @media (max-width: 1024px) {
-}
-@media (max-width: 768px) {
-}
-@media (max-width: 480px) {
-}
-@media (max-width: 320px) {
   .upper-header {
+    text-align: center;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  .header-label {
-    color: whitesmoke;
-  }
-  .header-description {
-    color: #727272;
-  }
-  .open-hours {
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .email {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
+    justify-content: space-between;
   }
   .telephone {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 12px;
   }
-  .telephone .telephone-text {
+  .lower-header {
+    background-color: #ef5050;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .lower-header .menu {
+    max-width: 90%;
+    padding-left: 10px;
+  }
+  .lower-header .button {
+    max-width: 80%;
+  }
+  .banner {
+    background-image: url(./img/banner/background-img.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+  }
+  .banner .img1 {
+    width: 450px;
+    height: auto;
+  }
+  .banner .img2 {
+    width: 220px;
+    height: auto;
+  }
+  .about-company {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+    justify-content: space-around;
+    color: #646464;
+  }
+  .about-company .img1 {
+    width: 320px;
+    margin-right: 12px;
+  }
+  .about-company .img2 {
+    width: 300px;
+    margin-top: 12px;
+    margin-left: 24px;
+  }
+  .about-company .left-side {
+    align-self: center;
+  }
+  .red-text {
+    color: red;
+  }
+  .container h3 {
+    color: black;
+  }
+  .first-element {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-element .left-side {
+    margin: 5px;
+  }
+  .first-element .right-side {
+    margin-left: 5px;
+  }
+  .first-element img {
+    width: 96px;
+  }
+  .our-service {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-service .title {
+    font-size: 36px;
+    color: black;
+  }
+  .our-service p {
+    font-size: 24px;
+    color: #646464;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 1;
+    margin-bottom: 2;
+  }
+
+  .our-service img {
+    width: 200px;
+    margin: 8px;
+  }
+  .our-service .photos {
+    display: flex;
+    flex-direction: row;
+  }
+  .work-gallery {
+    font-size: 16px;
+    background-color: #616161;
+    text-align: center;
+    padding: 20px;
+  }
+  .work-gallery .title {
+    padding-top: 24px;
+    color: white;
+  }
+  .work-gallery .sub-title {
+    color: #b1b1b1;
+  }
+  .work-gallery .gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .work-gallery .gallery img {
+    width: 190px;
+    padding-right: 40px;
+    padding-left: 20px;
+  }
+  .Testimonials {
+    text-align: center;
     display: flex;
     flex-direction: column;
   }
-  .icons {
+  .Testimonials .img1 {
+    width: 600px;
+  }
+  .Testimonials .img2 {
+    width: 140px;
+    padding-bottom: 140px;
+  }
+  .Testimonials p {
+    color: #727272;
+  }
+}
+@media (max-width: 768px) {
+  .upper-header {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+  }
+  .telephone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .lower-header {
+    background-color: #ef5050;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .lower-header .menu {
+    max-width: 90%;
+    padding-left: 10px;
+  }
+  .lower-header .button {
+    max-width: 80%;
+  }
+  .banner {
+    background-image: url(./img/banner/background-img.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 270px;
+  }
+  .banner .img1 {
+    width: 200px;
+    height: auto;
+  }
+  .banner .img2 {
+    width: 120px;
+    height: auto;
+  }
+  .about-company {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+    justify-content: space-around;
+    color: #646464;
+  }
+  .about-company .img1 {
+    width: 240px;
+    margin-right: 12px;
+  }
+  .about-company .img2 {
+    width: 220px;
+    margin-top: 12px;
+    margin-left: 24px;
+  }
+  .about-company .left-side {
     align-self: center;
+  }
+  .red-text {
+    color: red;
+  }
+  .container h3 {
+    color: black;
+  }
+  .first-element {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-element .left-side {
+    margin: 5px;
+  }
+  .first-element .right-side {
+    margin-left: 5px;
+  }
+  .first-element img {
+    width: 72px;
+  }
+  .our-service {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-service .title {
+    font-size: 24px;
+    color: black;
+  }
+  .our-service p {
+    font-size: 12px;
+    color: #646464;
+    margin-top: 1;
+    margin-bottom: 2;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .our-service img {
+    width: 96px;
+    margin: 8px;
+  }
+  .our-service .photos {
+    display: flex;
+    flex-direction: row;
+  }
+  .our-service {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-service .title {
+    font-size: 24px;
+    color: black;
+  }
+  .our-service p {
+    font-size: 16px;
+    color: #646464;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 1;
+    margin-bottom: 2;
+  }
+
+  .our-service img {
+    width: 135px;
+    margin: 8px;
+  }
+  .our-service .photos {
+    display: flex;
+    flex-direction: row;
+  }
+  .work-gallery {
+    font-size: 16px;
+    background-color: #616161;
+    text-align: center;
+  }
+  .work-gallery .title {
+    padding-top: 24px;
+    color: white;
+  }
+  .work-gallery .sub-title {
+    color: #b1b1b1;
+  }
+  .work-gallery .gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .work-gallery .gallery img {
+    width: 100px;
+    margin: 10px;
+  }
+  .Testimonials {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .Testimonials .img1 {
+    width: 600px;
+  }
+  .Testimonials .img2 {
+    width: 140px;
+    padding-bottom: 140px;
+  }
+  .Testimonials p {
+    color: #727272;
+  }
+}
+@media (max-width: 480px) {
+  .upper-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .telephone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .lower-header {
+    background-color: #ef5050;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .lower-header .menu {
+    max-width: 90%;
+    padding-left: 10px;
+  }
+  .lower-header .button {
+    max-width: 80%;
+  }
+  .banner {
+    background-image: url(./img/banner/background-img.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }
+  .banner .img1 {
+    width: 150px;
+    height: auto;
+  }
+  .banner .img2 {
+    width: 80px;
+    height: auto;
+  }
+  .about-company {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+    justify-content: space-around;
+    color: #646464;
+  }
+  .about-company .img1 {
+    width: 180px;
+    margin-right: 12px;
+  }
+  .about-company .img2 {
+    width: 180px;
+    margin-top: 12px;
+    margin-left: 24px;
+  }
+  .about-company .left-side {
+    align-self: center;
+  }
+  .red-text {
+    color: red;
+  }
+  .container h3 {
+    color: black;
+  }
+  .first-element {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-element .left-side {
+    margin: 5px;
+  }
+  .first-element .right-side {
+    margin-left: 5px;
+  }
+  .first-element img {
+    width: 48px;
+  }
+  .our-service {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-service .title {
+    font-size: 24px;
+    color: black;
+  }
+  .our-service p {
+    font-size: 12px;
+    color: #646464;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 1;
+    margin-bottom: 2;
+  }
+
+  .our-service img {
+    width: 96px;
+    margin: 8px;
+  }
+  .our-service .photos {
+    display: flex;
+    flex-direction: row;
+  }
+  .work-gallery {
+    font-size: 16px;
+    background-color: #616161;
+    text-align: center;
+  }
+  .work-gallery .title {
+    padding-top: 24px;
+    color: white;
+  }
+  .work-gallery .sub-title {
+    color: #b1b1b1;
+  }
+  .work-gallery .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+  .work-gallery .gallery img {
+    width: 220px;
+  }
+  .Testimonials {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .Testimonials .img1 {
+    width: 360px;
+  }
+  .Testimonials .img2 {
+    width: 140px;
+    padding-bottom: 80px;
+  }
+  .Testimonials p {
+    color: #727272;
+  }
+}
+@media (max-width: 320px) {
+  .upper-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .telephone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .lower-header {
+    background-color: #ef5050;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .lower-header .menu {
+    max-width: 90%;
+    padding-left: 10px;
+  }
+  .lower-header .button {
+    max-width: 80%;
+  }
+  .banner {
+    background-image: url(./img/banner/background-img.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+  }
+  .banner .img1 {
+    width: 150px;
+    height: auto;
+  }
+  .banner .img2 {
+    width: 80px;
+    height: auto;
+  }
+  .about-company {
+    font-size: 8px;
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+    justify-content: space-around;
+    color: #646464;
+  }
+  .about-company .img1 {
+    width: 100px;
+    margin-right: 12px;
+  }
+  .about-company .img2 {
+    width: 100px;
+    margin-top: 12px;
+    margin-left: 12px;
+  }
+  .about-company .left-side {
+    align-self: center;
+  }
+  .red-text {
+    color: red;
+  }
+  .container h3 {
+    color: black;
+  }
+  .first-element {
+    display: flex;
+    flex-direction: row;
+  }
+  .first-element .left-side {
+    margin: 5px;
+  }
+  .first-element .right-side {
+    margin-left: 5px;
+  }
+  .first-element img {
+    width: 48px;
+  }
+  .our-service {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-service .title {
+    font-size: 16px;
+    color: black;
+  }
+  .our-service p {
+    font-size: 8px;
+    color: #646464;
+    margin-top: 1;
+    margin-bottom: 2;
+  }
+
+  .our-service img {
+    width: 72px;
+    margin: 4px;
+  }
+  .our-service .photos {
+    display: flex;
+    flex-direction: row;
+  }
+  .work-gallery {
+    font-size: 12px;
+    background-color: #616161;
+    text-align: center;
+  }
+  .work-gallery .title {
+    padding-top: 24px;
+    color: white;
+  }
+  .work-gallery .sub-title {
+    color: #b1b1b1;
+  }
+  .work-gallery .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+  .work-gallery .gallery img {
+    width: 124px;
+  }
+  .Testimonials {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .Testimonials .img1 {
+    width: 220px;
+  }
+  .Testimonials .img2 {
+    width: 100px;
+    padding-bottom: 80px;
+  }
+  .Testimonials p {
+    color: #727272;
   }
 }
