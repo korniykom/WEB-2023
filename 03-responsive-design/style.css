@@ -1172,23 +1172,23 @@ header {
     height: 200px;
   }
   .banner .img1 {
-    width: 150px;
+    width: 300px;
     height: auto;
   }
   .banner .img2 {
-    width: 80px;
+    width: 120px;
     height: auto;
   }
   .about-company {
-    font-size: 12px;
+    font-size: 18px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 12px;
     justify-content: space-around;
     color: #646464;
   }
   .about-company .img1 {
-    width: 180px;
+    width: 260px;
     margin-right: 12px;
   }
   .about-company .img2 {
@@ -1230,7 +1230,7 @@ header {
     color: black;
   }
   .our-service p {
-    font-size: 12px;
+    font-size: 18px;
     color: #646464;
     margin-left: 32px;
     margin-right: 32px;
@@ -1239,12 +1239,12 @@ header {
   }
 
   .our-service img {
-    width: 96px;
+    width: 260px;
     margin: 8px;
   }
   .our-service .photos {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   .work-gallery {
     font-size: 16px;
@@ -1289,7 +1289,7 @@ header {
   .team p {
     margin-left: 24px;
     margin-right: 24px;
-    font-size: 12px;
+    font-size: 16px;
   }
   .team .box {
     display: flex;
@@ -1322,7 +1322,7 @@ header {
     color: white;
   }
   .promo-banner .left-side .text2 {
-    font-size: 8px;
+    font-size: 16px;
     color: white;
   }
   .promo-banner .right-side .img3 {
@@ -1332,11 +1332,11 @@ header {
     text-align: center;
   }
   .faq-news h2 {
-    font-size: 14px;
+    font-size: 16px;
   }
   .faq-news p {
     color: #727272;
-    font-size: 8px;
+    font-size: 16px;
     margin: 20px;
   }
   .faq-news .box {
@@ -1389,7 +1389,7 @@ header {
     color: #333333;
   }
   .appointment p {
-    font-size: 14px;
+    font-size: 16px;
     color: #333333;
   }
   footer {
@@ -1454,7 +1454,7 @@ header {
     height: auto;
   }
   .about-company {
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
     margin: 12px;
