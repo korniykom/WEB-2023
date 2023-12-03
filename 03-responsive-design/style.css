@@ -1454,15 +1454,15 @@ header {
     height: auto;
   }
   .about-company {
-    font-size: 8px;
+    font-size: 14px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 12px;
     justify-content: space-around;
     color: #646464;
   }
   .about-company .img1 {
-    width: 100px;
+    width: 160px;
     margin-right: 12px;
   }
   .about-company .img2 {
@@ -1504,7 +1504,7 @@ header {
     color: black;
   }
   .our-service p {
-    font-size: 8px;
+    font-size: 14px;
     color: #646464;
     margin-top: 1;
     margin-bottom: 2;
@@ -1516,10 +1516,13 @@ header {
   }
   .our-service .photos {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+  }
+  .our-service img {
+    width: 160px;
   }
   .work-gallery {
-    font-size: 12px;
+    font-size: 14px;
     background-color: #616161;
     text-align: center;
   }
@@ -1538,7 +1541,7 @@ header {
     width: 124px;
   }
   .Testimonials {
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -1562,7 +1565,7 @@ header {
   .team p {
     margin-left: 24px;
     margin-right: 24px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .team .box {
     display: flex;
@@ -1590,11 +1593,11 @@ header {
     justify-content: center;
   }
   .promo-banner .left-side .text1 {
-    font-size: 12px;
+    font-size: 14px;
     color: white;
   }
   .promo-banner .left-side .text2 {
-    font-size: 6px;
+    font-size: 14px;
     color: white;
   }
   .promo-banner .right-side .img3 {
@@ -1608,7 +1611,7 @@ header {
   }
   .faq-news p {
     color: #727272;
-    font-size: 8px;
+    font-size: 14px;
     margin: 20px;
   }
   .faq-news .box {
@@ -1636,15 +1639,16 @@ header {
   }
   .appointment .upper {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
   }
   .appointment .upper input {
-    width: 70px;
+    width: 200px;
     margin: 10px;
     background-color: #232425;
   }
   .appointment .lower input {
-    width: 260px;
+    width: 200px;
     height: 40px;
     margin-left: 10px;
     margin-right: 10px;
@@ -1656,7 +1660,7 @@ header {
 
   .appointment input {
     background-color: #232425;
-    font-size: 8px;
+    font-size: 14px;
   }
 
   .appointment h2 {
@@ -1664,7 +1668,7 @@ header {
     color: #333333;
   }
   .appointment p {
-    font-size: 12px;
+    font-size: 14px;
     color: #333333;
   }
   footer {
