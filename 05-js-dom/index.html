@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <span>ТР-23</span><span>Корнійко Максим</span
+      ><span>Основи JS. Змінні, типи даних, функції.</span>
+    </header>
+    <form id="reg" class="form">
+      <label>Iм'я</label>
+      <input type="text" id="userInputName" />
+      <label>Група</label>
+      <input type="text" id="userInputGroup" />
+      <button id="continue">Продовжити</button>
+    </form>
+    <form id="difficulty-form" class="difficulty-form hidden">
+      <button id="easy">Легко</button>
+      <button id="medium">Середньо</button>
+      <button id="hard">Важко</button>
+    </form>
+    <div id="question-conteiner" class="hidden"><p>Питання</p></div>
+    <div id="question-container" class="hidden">
+      <p id="question-text"></p>
+      <select id="options-dropdown"></select>
+    </div>
+    <div id="hard" class="hidden"></div>
+    <div id="question-conteiner" class="hidden">
+      <p>Питання</p>
+      <div id="options-dropdown-container"></div>
+    </div>
+
+    <button id="check-answer" class="hidden">Відповісти</button>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

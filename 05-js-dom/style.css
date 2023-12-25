@@ -1,0 +1,91 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: lightcyan;
+}
+
+.Registration {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+}
+.reg-left-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reg-button {
+  align-self: flex-end;
+  margin: 10px;
+}
+.choose-sex {
+  display: flex;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.back-button {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.Avatar {
+  border-radius: 50%;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+}
+.difficulty-form {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.difficulty-form button {
+  width: 200px;
+  font-size: 24px;
+}
+.hidden {
+  display: none;
+}
+.question-conteiner {
+  display: flex;
+  flex-direction: column;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.center2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 88%;
+  left: 45%;
+}
